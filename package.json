@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-bgu",
+  "version": "1.0.0",
+  "description": "ecommerce-bgu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alijbareen/ecommerce-bgu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alijbareen/ecommerce-bgu/issues"
+  },
+  "homepage": "https://github.com/alijbareen/ecommerce-bgu#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
