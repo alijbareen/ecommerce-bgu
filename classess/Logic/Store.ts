@@ -9,4 +9,16 @@ export default class Store{
     receipts : any[];
     inventory : Product[]
 
+
+    constructor(name:string,founder:Member){
+
+        this.name=name;
+        this.founder= [founder];
+        this.owners=[founder];
+
+        this.inventory = [];
+        this.receipts = [];
+        this.managers = [];
+    }
+
 }

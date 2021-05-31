@@ -1,14 +1,19 @@
-import Shoppingcart from "./Shoppingcart"
+
 
 export abstract class aUser{
+
     id:number
     userName:string ;
     password:string ;
-    myCart :any; //Shoppingcart
+    myCart :Shoppingcart; //Shoppingcart
+    //Admin Member Guest
     role:string;
     age:number;
     gender:string;
     address:string;
+
+    //2.1 2.2
+    isLogged:boolean;
 
     purchaseHistory:[];
     alarms:[];
