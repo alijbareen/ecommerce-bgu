@@ -1,6 +1,7 @@
 import Shoppingcart from "./Shoppingcart"
 
 export abstract class aUser{
+    id:number
     userName:string ;
     password:string ;
     myCart :any; //Shoppingcart
